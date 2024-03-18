@@ -29,10 +29,7 @@
 }
 .blocks {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
-  justify-content: center;
-  /* justify-content: start; */
   width: 200px;
   gap: 15px;
   background: orange;
@@ -42,4 +39,7 @@
   height: 30px;
   margin: 0 auto;
   background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
